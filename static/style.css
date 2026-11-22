@@ -1,0 +1,21 @@
+body {
+    background-color: #101827;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.sensor-card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
