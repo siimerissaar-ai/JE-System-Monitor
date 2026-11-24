@@ -19,3 +19,20 @@ body {
     justify-content: center;
     padding: 0 15px;
 }
+
+#connection-status{
+    font-weight: bold;
+}
+
+.connected{
+    color: #22c55e;
+}
+
+.disconnected{
+    color: #ef4444;
+}
+
+#connection-status::before{
+    content:"●";
+    margin-right: 8px;
+}
