@@ -3,7 +3,7 @@
 <head>
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
     <meta charset="UTF-8">
-    <title>PC Doctor</title>
+    <title>J.E System Monitor</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -18,10 +18,23 @@
     </div>
     <div class="sensor-card">
         <h3>GPU Temperature</h3>
-        <p>0°C</p>
+        <p id="gpu-temp">0°C</p>
     </div>
     <div class="sensor-card">
         <h3>Ram Usage</h3>
         <p id="ram-usage">0%</p>
+    </div>
+</div>
+</div class="systen-info">
+    <h2>System Information</h2>
+
+    <div class="info-row">
+        <span class="info-label">🖥️ Operating system</span>
+        <span id="sytem-os">Loading...</span>
+    </div>
+
+    <div class="info-row">
+        <span class="info-label">⚙️ Architecture</span>
+        <span id="system-architecture">Loading...</span>
     </div>
 </div>
